@@ -1,0 +1,163 @@
+Environment variables:
+  - CLUTTER_IM_MODULE=xim
+  - COLORTERM=gnome-terminal
+  - COMPIZ_BIN_PATH=/usr/bin/
+  - COMPIZ_CONFIG_PROFILE=ubuntu
+  - DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-lnWjefoh0z
+  - DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+  - DESKTOP_SESSION=ubuntu
+  - DISPLAY=:1
+  - GDMSESSION=ubuntu
+  - GDM_LANG=en_US
+  - GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+  - GNOME_KEYRING_CONTROL=/run/user/1000/keyring-u9oq9d
+  - GNOME_KEYRING_PID=3344
+  - GPG_AGENT_INFO=/run/user/1000/keyring-u9oq9d/gpg:0:1
+  - GTK_IM_MODULE=ibus
+  - GTK_MODULES=overlay-scrollbar:unity-gtk-module
+  - HOME=/home/lingoadmin
+  - IM_CONFIG_PHASE=1
+  - INSTANCE=Unity
+  - JOB=gnome-session
+  - LANG=en_US.UTF-8
+  - LANGUAGE=en_US
+  - LESSCLOSE=/usr/bin/lesspipe %s %s
+  - LESSOPEN=| /usr/bin/lesspipe %s
+  - LOGNAME=lingoadmin
+  - LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+  - MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+  - OLDPWD=/home/lingoadmin/workspace/LiteDemo/src
+  - PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/etc/sonarqube-5.4/bin/linux-x86-64:/etc/sonar-scanner-2.5.1/bin
+  - PWD=/home/lingoadmin/workspace/LiteDemo
+  - QT4_IM_MODULE=xim
+  - QT_IM_MODULE=ibus
+  - QT_QPA_PLATFORMTHEME=appmenu-qt5
+  - SELINUX_INIT=YES
+  - SESSION=ubuntu
+  - SESSIONTYPE=gnome-session
+  - SESSION_MANAGER=local/Feldspar:@/tmp/.ICE-unix/3480,unix/Feldspar:/tmp/.ICE-unix/3480
+  - SHELL=/bin/bash
+  - SHLVL=1
+  - SSH_AUTH_SOCK=/run/user/1000/keyring-u9oq9d/ssh
+  - TERM=xterm
+  - TEXTDOMAIN=im-config
+  - TEXTDOMAINDIR=/usr/share/locale/
+  - UPSTART_EVENTS=started starting
+  - UPSTART_INSTANCE=
+  - UPSTART_JOB=unity-settings-daemon
+  - UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/3346
+  - USER=lingoadmin
+  - VTE_VERSION=3409
+  - WINDOWID=58892275
+  - XAUTHORITY=/home/lingoadmin/.Xauthority
+  - XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg
+  - XDG_CURRENT_DESKTOP=Unity
+  - XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/
+  - XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/lingoadmin
+  - XDG_MENU_PREFIX=gnome-
+  - XDG_RUNTIME_DIR=/run/user/1000
+  - XDG_SEAT=seat0
+  - XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+  - XDG_SESSION_ID=c5
+  - XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session1
+  - XDG_VTNR=8
+  - XMODIFIERS=@im=ibus
+  - _=/etc/sonar-scanner-2.5.1/bin/sonar-runner
+System properties:
+  - awt.toolkit=sun.awt.X11.XToolkit
+  - file.encoding=UTF-8
+  - file.encoding.pkg=sun.io
+  - file.separator=/
+  - java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+  - java.awt.headless=true
+  - java.awt.printerjob=sun.print.PSPrinterJob
+  - java.class.path=/etc/sonar-scanner-2.5.1/lib/sonar-scanner-cli-2.5.1.jar
+  - java.class.version=51.0
+  - java.endorsed.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed
+  - java.ext.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+  - java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+  - java.io.tmpdir=/tmp
+  - java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+  - java.runtime.name=OpenJDK Runtime Environment
+  - java.runtime.version=1.7.0_91-b02
+  - java.specification.name=Java Platform API Specification
+  - java.specification.vendor=Oracle Corporation
+  - java.specification.version=1.7
+  - java.vendor=Oracle Corporation
+  - java.vendor.url=http://java.oracle.com/
+  - java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+  - java.version=1.7.0_91
+  - java.vm.info=mixed mode
+  - java.vm.name=OpenJDK 64-Bit Server VM
+  - java.vm.specification.name=Java Virtual Machine Specification
+  - java.vm.specification.vendor=Oracle Corporation
+  - java.vm.specification.version=1.7
+  - java.vm.vendor=Oracle Corporation
+  - java.vm.version=24.91-b01
+  - line.separator=
+
+  - os.arch=amd64
+  - os.name=Linux
+  - os.version=3.13.0-74-generic
+  - path.separator=:
+  - project.home=/home/lingoadmin/workspace/LiteDemo
+  - runner.home=/etc/sonar-scanner-2.5.1
+  - sun.arch.data.model=64
+  - sun.boot.class.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes
+  - sun.boot.library.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64
+  - sun.cpu.endian=little
+  - sun.cpu.isalist=
+  - sun.desktop=gnome
+  - sun.io.unicode.encoding=UnicodeLittle
+  - sun.java.command=org.sonarsource.scanner.cli.Main -X
+  - sun.java.launcher=SUN_STANDARD
+  - sun.jnu.encoding=UTF-8
+  - sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+  - sun.os.patch.level=unknown
+  - user.country=US
+  - user.dir=/home/lingoadmin/workspace/LiteDemo
+  - user.home=/home/lingoadmin
+  - user.language=en
+  - user.name=lingoadmin
+  - user.timezone=America/Denver
+SonarQube plugins:
+  - Issues Density 1.0 (issuesdensity)
+  - JavaScript 2.10 (javascript)
+  - Findbugs 3.3 (findbugs)
+  - Globalyzer Summary Scan Widget Plugin 5.1.2.2 (lpgzsummaryscanwidget)
+  - LRM Summary Widget Plugin 5.1.2.2 (lplrmsummarywidget)
+  - LRM Base Resource Issues Widget Plugin 5.1.2.2 (lplrmsourceruleswidget)
+  - LRM Completion Widget Plugin 5.1.2.2 (lplrmcompletionwidget)
+  - LRM Prep Kit Due Dates Widget Plugin 5.1.2.2 (lplrmkitstatusduedatewidget)
+  - Sonar Lingoport Plugin 5.1.2 (sonarlingoportplugin)
+  - Git 1.0 (scmgit)
+  - LRM Files to Prep Widget Plugin 5.1.2.2 (lplrmfilestoprepwidget)
+  - SVN 1.2 (scmsvn)
+  - Checkstyle 2.4 (checkstyle)
+  - PMD 2.5 (pmd)
+  - Java 3.10 (java)
+  - C# 4.4 (csharp)
+  - LRM Productivity Widget Plugin 5.1.2.2 (lplrmperformancewidget)
+  - GitHub 1.1 (github)
+  - Cobertura 1.6.3 (cobertura)
+  - LRM Translation Issues Widget Plugin 5.1.2.2 (lplrmtranslationruleswidget)
+  - Globalyzer Summary Rules Widget Plugin 5.1.2.2 (lpgzsummaryruleswidget)
+  - Globalyzer Violations Widget Plugin 5.1.2.2 (lpglobalyzerrules)
+Settings for module: Lingoport.LiteDemo:scan
+  - sonar.core.id=20160314141604
+  - sonar.core.startTime=2016-03-14T14:16:04-0600
+  - sonar.core.version=5.4
+  - sonar.encoding=UTF-8
+  - sonar.host.url=http://localhost:9000
+  - sonar.language=lport
+  - sonar.lingoport.project.root=/tmp/reports
+  - sonar.permission.template.default=default_template
+  - sonar.projectBaseDir=/home/lingoadmin/workspace/LiteDemo
+  - sonar.projectKey=Lingoport.LiteDemo:scan
+  - sonar.projectName=Lingoport.LiteDemo
+  - sonar.projectVersion=5.1
+  - sonar.qualitygate=1
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=/home/lingoadmin/workspace/LiteDemo
+  - sonar.verbose=true
+  - sonar.working.directory=/home/lingoadmin/workspace/LiteDemo/.sonar
