@@ -53,7 +53,8 @@ public class ExampleMain {
         frame.setVisible(true);
         String strTitle = "Example Address Book -- " + locale;
         String strTitle2 = "Example Number Book -- " + locale;
-        frame.setTitle(strTitle);
+        String strTitle3 = "Another Bad Example -- " + "hi" + locale;
+	frame.setTitle(strTitle);
     }
 
 }
