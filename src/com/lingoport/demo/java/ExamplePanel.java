@@ -96,7 +96,7 @@ public class ExamplePanel extends JPanel {
 
     public void createButtons() {
 
-        ImageIcon nextButtonIcon = ImageHelper.createImageIcon("images/next.jpg");
+        ImageIcon nextButtonIcon = ImageHelper.createImageIcon("images/next1.jpg");
         nextButton_ = new JButton( nextButtonIcon);
         nextButton_.setToolTipText("Next & Clear");
         nextButton_.addActionListener(new ActionListener() {
@@ -116,7 +116,7 @@ public class ExamplePanel extends JPanel {
             }
         });
         
-        ImageIcon addButtonIcon = ImageHelper.createImageIcon("images/add.jpg");
+        ImageIcon addButtonIcon = ImageHelper.createImageIcon("images/add2.jpg");
         addButton_ = new JButton( addButtonIcon);
         addButton_.setToolTipText("Add Record");
         addButton_.addActionListener(new ActionListener() {
@@ -137,7 +137,7 @@ public class ExamplePanel extends JPanel {
             }
         });
 
-        ImageIcon exitButtonIcon = ImageHelper.createImageIcon("images/exit.jpg");
+        ImageIcon exitButtonIcon = ImageHelper.createImageIcon("images/exit3.jpg");
         exitButton_ = new JButton(exitButtonIcon);
         exitButton_.setToolTipText("Exit");
         exitButton_.addActionListener(new ActionListener() {
@@ -185,8 +185,8 @@ public class ExamplePanel extends JPanel {
 //         JLabel timeLabel = new JLabel(timeStr);
         
         // Example of String concatenation below        
-        StringBuffer timeSB = new StringBuffer("Time:");
-        timeSB.append(I18nUtils.getLocale());
+        StringBuffer timeSB1 = new StringBuffer("Time:");
+        timeSB1.append(I18nUtils.getLocale());
         JLabel timeLabel = new JLabel(timeSB.toString());
 
 
