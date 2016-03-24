@@ -38,7 +38,7 @@ public class ExamplePanel extends JPanel {
 	private static final long serialVersionUID = -772706090092654841L;
 	
 	JPanel infoPanel_;
-    JPanel datePanel_;
+    JPanel datePanel2_;
     Box buttonBox_;
 
     JButton nextButton_;
@@ -89,15 +89,15 @@ public class ExamplePanel extends JPanel {
         createInfoPanel();
         createButtons();
 
-        add(datePanel_, BorderLayout.NORTH);
+        add(datePanel2_, BorderLayout.NORTH);
         add(infoPanel_, BorderLayout.CENTER);
         add(buttonBox_, BorderLayout.SOUTH);
     }
 
     public void createButtons() {
-
-        ImageIcon nextButtonIcon = ImageHelper.createImageIcon("images/next.jpg");
-        nextButton_ = new JButton( nextButtonIcon);
+        ImageIcon nextButtonIcon2 = ImageHelper.createImageIcon("images/next.jpg");
+        ImageIcon nextButtonIcon3 = ImageHelper.createImageIcon("images/next.jpg");
+        nextButton_ = new JButton( nextButtonIcon3);
         nextButton_.setToolTipText("Next & Clear");
         nextButton_.addActionListener(new ActionListener() {
 
@@ -165,7 +165,7 @@ public class ExamplePanel extends JPanel {
      */
     private void createDatePanel() {
 
-        datePanel_ = new JPanel(new GridBagLayout());
+        datePanel2_ = new JPanel(new GridBagLayout());
         
 //        String message = MessageFormat.format("{0} for Today: ", new Object[]{I18nUtils.getLocale()});
 //        TitledBorder tb = new TitledBorder(new LineBorder(Color.darkGray), message);
@@ -175,8 +175,8 @@ public class ExamplePanel extends JPanel {
                                            I18nUtils.getLocale()
          									+
          									" for Today: ");
-        datePanel_.setBorder(tb);
-        datePanel_.setToolTipText("Displays today's date and time.");
+        datePanel2_.setBorder(tb);
+        datePanel2_.setToolTipText("Displays today's date and time.");
 
         JLabel dateLabel = new JLabel("Today's Date:");       
 
@@ -202,29 +202,29 @@ public class ExamplePanel extends JPanel {
         constraints.gridx = 0;
         constraints.gridy = 0;
         constraints.weightx = 0.0;
-        datePanel_.add(dateLabel, constraints);
+        datePanel2_.add(dateLabel, constraints);
 
         constraints.gridx = 1;
         constraints.gridy = 0;
         constraints.weightx = 0.0;
         
         // Fix the code by adding a locale, here French, which really should come from a Locale framework
-        // datePanel_.add(new JLabel(DateFormat.getDateInstance(DateFormat.FULL, I18nUtils.getLocale()).format(today_)), constraints); // $NON-NLS-L$ 
-        datePanel_.add(new JLabel(DateFormat.getDateInstance(DateFormat.FULL).format(today_)), constraints); 
+        // datePanel2_.add(new JLabel(DateFormat.getDateInstance(DateFormat.FULL, I18nUtils.getLocale()).format(today_)), constraints); // $NON-NLS-L$ 
+        datePanel2_.add(new JLabel(DateFormat.getDateInstance(DateFormat.FULL).format(today_)), constraints); 
 
         constraints.gridx = 2;
         constraints.gridy = 0;
         constraints.weightx = 1.0;
-        datePanel_.add(timeLabel, constraints);
+        datePanel2_.add(timeLabel, constraints);
 
         constraints.gridx = 3;
         constraints.gridy = 0;
         constraints.weightx = 1.0;
         
         // Fix the code by adding a locale, here French, which really should come from a Locale framework
-        // datePanel_.add(new JLabel(DateFormat.getTimeInstance(DateFormat.DEFAULT, I18nUtils.getLocale()).format(time_)), constraints); // $NON-NLS-L$ 
+        // datePanel2_.add(new JLabel(DateFormat.getTimeInstance(DateFormat.DEFAULT, I18nUtils.getLocale()).format(time_)), constraints); // $NON-NLS-L$ 
 
-        datePanel_.add(new JLabel(DateFormat.getTimeInstance(DateFormat.DEFAULT).format(time_)), constraints);
+        datePanel2_.add(new JLabel(DateFormat.getTimeInstance(DateFormat.DEFAULT).format(time_)), constraints);
     }
 
 
