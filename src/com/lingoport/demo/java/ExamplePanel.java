@@ -234,13 +234,13 @@ public class ExamplePanel extends JPanel {
      */
     private void createInfoPanel() {
 
-        infoPanel_ = new JPanel(new GridBagLayout());
+        infoPanel2_ = new JPanel(new GridBagLayout());
         TitledBorder tb = new TitledBorder(new LineBorder(Color.darkGray),
                                            I18nUtils.getString("EXAM_ADDRESS_1"));
-        infoPanel_.setBorder(tb);
-        infoPanel_.setToolTipText(I18nUtils.getString("EXAM_DISPLAY_2"));
+        infoPanel2_.setBorder(tb);
+        infoPanel2_.setToolTipText(I18nUtils.getString("EXAM_DISPLAY_22"));
 
-        JLabel nameLabel = new JLabel(I18nUtils.getString("EXAM_NAME_3"));
+        JLabel nameLabel1 = new JLabel(I18nUtils.getString("EXAM_NAME_3"));
         JLabel streetLabel = new JLabel(I18nUtils.getString("EXAM_STREET_4"));
         JLabel apartmentLabel = new JLabel(I18nUtils.getString("EXAM_APARTME_5"));
         JLabel cityLabel = new JLabel(I18nUtils.getString("EXAM_CITY_6"));
@@ -270,7 +270,7 @@ public class ExamplePanel extends JPanel {
         constraints.gridy = 0;
         constraints.gridwidth = 1;
         constraints.weightx = 0.0;
-        infoPanel_.add(nameLabel, constraints);
+        infoPanel2_.add(nameLabel1, constraints);
 
 
         constraints.gridx = 1;
@@ -278,13 +278,13 @@ public class ExamplePanel extends JPanel {
         constraints.gridwidth = 1;
         constraints.weightx = 0.0;
         nameJText_.setText(name_);
-        infoPanel_.add(nameJText_, constraints);
+        infoPanel2_.add(nameJText_, constraints);
 
         constraints.gridx = 0;
         constraints.gridy = 1;
         constraints.gridwidth = 1;
         constraints.weightx = 1.0;
-        infoPanel_.add(streetLabel, constraints);
+        infoPanel2_.add(streetLabel, constraints);
 
 
         constraints.gridx = 1;
@@ -292,26 +292,26 @@ public class ExamplePanel extends JPanel {
         constraints.gridwidth = 1;
         constraints.weightx = 1.0;
         streetJText_.setText(street_);
-        infoPanel_.add(streetJText_, constraints);
+        infoPanel2_.add(streetJText_, constraints);
 
         constraints.gridx = 0;
         constraints.gridy = 2;
         constraints.gridwidth = 1;
         constraints.weightx = 0.0;
-        infoPanel_.add(apartmentLabel, constraints);
+        infoPanel2_.add(apartmentLabel, constraints);
 
 
         constraints.gridx = 1;
         constraints.gridy = 2;
         constraints.gridwidth = 1;
         constraints.weightx = 0.0;
-        infoPanel_.add(apartmentJText_, constraints);
+        infoPanel2_.add(apartmentJText_, constraints);
 
         constraints.gridx = 0;
         constraints.gridy = 3;
         constraints.gridwidth = 1;
         constraints.weightx = 1.0;
-        infoPanel_.add(zipLabel, constraints);
+        infoPanel2_.add(zipLabel, constraints);
 
 
         constraints.gridx = 1;
@@ -319,13 +319,13 @@ public class ExamplePanel extends JPanel {
         constraints.gridwidth = 1;
         constraints.weightx = 1.0;
         zipJText_.setText(zip_);
-        infoPanel_.add(zipJText_, constraints);
+        infoPanel2_.add(zipJText_, constraints);
 
         constraints.gridx = 0;
         constraints.gridy = 4;
         constraints.gridwidth = 1;
         constraints.weightx = 0.0;
-        infoPanel_.add(cityLabel, constraints);
+        infoPanel2_.add(cityLabel, constraints);
 
 
         constraints.gridx = 1;
@@ -333,33 +333,33 @@ public class ExamplePanel extends JPanel {
         constraints.gridwidth = 1;
         constraints.weightx = 0.0;
         cityJText_.setText(city_);
-        infoPanel_.add(cityJText_, constraints);
+        infoPanel2_.add(cityJText_, constraints);
 
         constraints.gridx = 0;
         constraints.gridy = 5;
         constraints.gridwidth = 1;
         constraints.weightx = 1.0;
-        infoPanel_.add(phoneLabel, constraints);
+        infoPanel2_.add(phoneLabel, constraints);
 
 
         constraints.gridx = 1;
         constraints.gridy = 5;
         constraints.gridwidth = 1;
         constraints.weightx = 1.0;
-        infoPanel_.add(phoneJText_, constraints);
+        infoPanel2_.add(phoneJText_, constraints);
 
         constraints.gridx = 0;
         constraints.gridy = 6;
         constraints.gridwidth = 1;
         constraints.weightx = 1.0;
-        infoPanel_.add(emailLabel, constraints);
+        infoPanel2_.add(emailLabel, constraints);
 
 
         constraints.gridx = 1;
         constraints.gridy = 6;
         constraints.gridwidth = 1;
         constraints.weightx = 1.0;
-        infoPanel_.add(emailJText_, constraints);
+        infoPanel2_.add(emailJText_, constraints);
 
     }
 
