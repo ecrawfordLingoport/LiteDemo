@@ -179,6 +179,7 @@ public class ExamplePanel extends JPanel {
         datePanel2_.setToolTipText("Displays today's date and time.");
 
         JLabel dateLabel = new JLabel("Today's Date:");       
+        JLabel dateLabel2 = new JLabel("Today's Date :");       
 
 //         String template = "Time: {0}";
 //         String timeStr  = MessageFormat.format(template, I18nUtils.getLocale());
