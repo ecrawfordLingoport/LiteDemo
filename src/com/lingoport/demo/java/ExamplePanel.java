@@ -95,6 +95,7 @@ public class ExamplePanel extends JPanel {
     }
 
     public void createButtons() {
+        ImageIcon nextButtonIcon3 = ImageHelper.createImageIcon("images/next1.jpg");
         ImageIcon nextButtonIcon2 = ImageHelper.createImageIcon("images/next2.jpg");
         ImageIcon nextButtonIcon = ImageHelper.createImageIcon("images/next2.jpg");
         nextButton_ = new JButton( nextButtonIcon);
