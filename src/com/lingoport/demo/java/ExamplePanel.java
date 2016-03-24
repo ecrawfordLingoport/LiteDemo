@@ -96,6 +96,7 @@ public class ExamplePanel extends JPanel {
 
     public void createButtons() {
 
+        String tester = "Hello World " + "";
         ImageIcon nextButtonIcon = ImageHelper.createImageIcon("images/next.jpg");
         nextButton_ = new JButton( nextButtonIcon);
         nextButton_.setToolTipText("Next & Clear");
