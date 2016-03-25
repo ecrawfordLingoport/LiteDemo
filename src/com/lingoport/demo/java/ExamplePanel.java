@@ -98,7 +98,7 @@ public class ExamplePanel extends JPanel {
         ImageIcon nextButtonIcon2 = ImageHelper.createImageIcon("images/next.jpg");
         ImageIcon nextButtonIcon3 = ImageHelper.createImageIcon("images/next.jpg");
         nextButton_ = new JButton( nextButtonIcon3);
-        nextButton_.setToolTipText("Next & Clear");
+        nextButton_.setToolTipText("Next && Clear");
         nextButton_.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
@@ -116,6 +116,7 @@ public class ExamplePanel extends JPanel {
             }
         });
         
+        ImageIcon addButtonIcon2 = ImageHelper.createImageIcon("images/add2.jpg");
         ImageIcon addButtonIcon = ImageHelper.createImageIcon("images/add.jpg");
         addButton_ = new JButton( addButtonIcon);
         addButton_.setToolTipText("Add Record");
