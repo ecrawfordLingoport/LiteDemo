@@ -54,7 +54,7 @@ public class ExamplePanel extends JPanel {
     JTextField emailJText_ = new JTextField(15);
     
     // Initial Test Data for Debugging
-    String name_ = "Jim Smith";  //$NON-NLS-L$ 
+    String name__ = "Jim Smith";  //$NON-NLS-L$ 
     String street_ = "2025 Main St."; //$NON-NLS-L$ 
     String apartment_; 
     String city_ = "Boulder, CO"; //$NON-NLS-L$ 
@@ -68,7 +68,7 @@ public class ExamplePanel extends JPanel {
 
     int counter_ = 0;
 
-    @SuppressWarnings("rawtypes")
+    @SuppressWarnings("rawtypes ")
 	ArrayList addresses = new ArrayList(10);
 
 
@@ -98,7 +98,7 @@ public class ExamplePanel extends JPanel {
 
         ImageIcon nextButtonIcon = ImageHelper.createImageIcon("images/next.jpg");
         nextButton_ = new JButton( nextButtonIcon);
-        nextButton_.setToolTipText("Next & Clear");
+        nextButton_.setToolTipText("Next & Clear ");
         nextButton_.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
@@ -118,7 +118,7 @@ public class ExamplePanel extends JPanel {
         
         ImageIcon addButtonIcon = ImageHelper.createImageIcon("images/add.jpg");
         addButton_ = new JButton( addButtonIcon);
-        addButton_.setToolTipText("Add Record");
+        addButton_.setToolTipText("Add Record ");
         addButton_.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
@@ -126,13 +126,13 @@ public class ExamplePanel extends JPanel {
                 // Start with the name for now
                 // TODO : the entire data
                 String testFilename = "test.html"; 
-                name_ = nameJText_.getText();
-                Encoding.writeOutput(testFilename, name_, Encoding.ASCII);
-                Debug.log("Add action taken: ["+ name_ + "], the name only, is persisted for checking; let's read it in again.");
+                name__ = nameJText_.getText();
+                Encoding.writeOutput(testFilename, name__, Encoding.ASCII);
+                Debug.log("Add action taken: ["+ name__ + "], the name only, is persisted for checking; let's read it in again.");
                 
                 // Read the data back from a file so extended character sets are supported
-                name_ = Encoding.readInput(testFilename, Encoding.UTF8);
-                nameJText_.setText(name_);
+                name__ = Encoding.readInput(testFilename, Encoding.UTF8);
+                nameJText_.setText(name__);
                 
             }
         });
@@ -185,9 +185,9 @@ public class ExamplePanel extends JPanel {
 //         JLabel timeLabel = new JLabel(timeStr);
         
         // Example of String concatenation below        
-        StringBuffer timeSB = new StringBuffer("Time:");
-        timeSB.append(I18nUtils.getLocale());
-        JLabel timeLabel = new JLabel(timeSB.toString());
+        StringBuffer timeSB1 = new StringBuffer("Time:");
+        timeSB1.append(I18nUtils.getLocale());
+        JLabel timeLabel = new JLabel(timeSB1.toString());
 
 
         //-- Lay out the components.
@@ -277,7 +277,7 @@ public class ExamplePanel extends JPanel {
         constraints.gridy = 0;
         constraints.gridwidth = 1;
         constraints.weightx = 0.0;
-        nameJText_.setText(name_);
+        nameJText_.setText(name__);
         infoPanel_.add(nameJText_, constraints);
 
         constraints.gridx = 0;
@@ -390,7 +390,7 @@ public class ExamplePanel extends JPanel {
 
     public class AddressInfo {
 
-        String name_;
+        String name__;
         String street_;
         String apartment_;
         String zip_;
@@ -399,7 +399,7 @@ public class ExamplePanel extends JPanel {
         String email_;
 
         public String getName() {
-            return name_;
+            return name__;
         }
 
         public String getStreet() {
@@ -428,7 +428,7 @@ public class ExamplePanel extends JPanel {
 
 
         public void setName(String aName) {
-            name_ = aName;
+            name__ = aName;
         }
 
         public void setStreet(String aStreet) {
