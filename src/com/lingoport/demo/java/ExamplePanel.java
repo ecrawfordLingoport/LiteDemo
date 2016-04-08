@@ -68,7 +68,7 @@ public class ExamplePanel extends JPanel {
 
     int counter_ = 0;
 
-    @SuppressWarnings("rawtypes")
+    @SuppressWarnings("rawtypes ")
 	ArrayList addresses = new ArrayList(10);
 
 

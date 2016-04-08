@@ -19,20 +19,20 @@ public class ExampleMain {
     	// if should be given in the form fr_FR or en_US
     	// of de_DE_Pseudo with a variant
     	// (simplistic argument parsing)
-    	Locale locale = new Locale("en", "US"); // $NON-NLS-L$
+    	Locale locale1 = new Locale("en", "US"); // $NON-NLS-L$
     	if (args.length > 0) {
     		// try to split the string on _
-    		String localeStr[] = args[0].split("_");
+    		String localeStr1[] = args[0].split("_");
     		
     		// Try to build with a variant
     		try {
-    			Locale candidateLocale = new Locale(localeStr[0], localeStr[1], localeStr[2]);
-    			locale = candidateLocale;
+    			Locale candidateLocale = new Locale(localeStr1[0], localeStr1[1], localeStr1[2]);
+    			locale1 = candidateLocale;
     		} catch (Exception ignore) {
         		try {
         			// if bad, for whatever reason, try without variant
-        			Locale candidateLocale = new Locale(localeStr[0], localeStr[1]);
-        			locale = candidateLocale;
+        			Locale candidateLocale = new Locale(localeStr1[0], localeStr1[1]);
+        			locale1 = candidateLocale;
         		} catch (Exception ex) {
         			// If bad, just continue with the default locale
         		}			
@@ -51,8 +51,8 @@ public class ExampleMain {
         frame.getContentPane().add(panel);
         frame.pack();
         frame.setVisible(true);
-        String strTitle = "Example Address Book -- " + locale;
-        frame.setTitle(strTitle);
+        String strTitle2 = "Example Address Book -- " + locale1;
+        frame.setTitle(strTitle2);
     }
 
 }
