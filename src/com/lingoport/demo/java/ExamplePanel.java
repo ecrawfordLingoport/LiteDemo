@@ -96,8 +96,8 @@ public class ExamplePanel extends JPanel {
 
     public void createButtons() {
 
-        ImageIcon nextButtonIcon = ImageHelper.createImageIcon("images/next.jpg");
-        nextButton_ = new JButton( nextButtonIcon);
+        ImageIcon nextButtonIcon1 = ImageHelper.createImageIcon("images/next.jpg");
+        nextButton_ = new JButton( nextButtonIcon1);
         nextButton_.setToolTipText("Next & Clear");
         nextButton_.addActionListener(new ActionListener() {
 
@@ -116,8 +116,8 @@ public class ExamplePanel extends JPanel {
             }
         });
         
-        ImageIcon addButtonIcon = ImageHelper.createImageIcon("images/add.jpg");
-        addButton_ = new JButton( addButtonIcon);
+        ImageIcon addButtonIcon1 = ImageHelper.createImageIcon("images/add.jpg");
+        addButton_ = new JButton( addButtonIcon1);
         addButton_.setToolTipText("Add Record");
         addButton_.addActionListener(new ActionListener() {
 
@@ -126,12 +126,12 @@ public class ExamplePanel extends JPanel {
                 // Start with the name for now
                 // TODO : the entire data
                 String testFilename = "test.html"; 
-                name_ = nameJText_.getText();
-                Encoding.writeOutput(testFilename, name_, Encoding.ASCII);
+                String name = nameJText_.getText();
+                Encoding.writeOutput(testFilename, name, Encoding.ASCII);
                 Debug.log("Add action taken: ["+ name_ + "], the name only, is persisted for checking; let's read it in again.");
                 
                 // Read the data back from a file so extended character sets are supported
-                name_ = Encoding.readInput(testFilename, Encoding.UTF8);
+                name = Encoding.readInput(testFilename, Encoding.UTF8);
                 nameJText_.setText(name_);
                 
             }
